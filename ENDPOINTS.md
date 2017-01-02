@@ -8,7 +8,9 @@ Comment:
 ## Send
 ### Text Messages
 Usage: sending Text Messages
+
 URL: PUT https://instantmessaging-pa.googleapis.com/google.internal.communications.instantmessaging.v1.IM/SendMessage HTTP/2.0
+
 RequestHeaders:
 ```
 :authority:            instantmessaging-pa.googleapis.com
@@ -33,7 +35,9 @@ p\xe7a\x98\x9c\x1e:?\x18\xf2\xeb\xc5?8\x04H\x01J\x10xW\x1d\xe5\x9b\xe9I\x81\x8cd
 
 ### GetBotList
 Usage: Unknown
+
 URL: PUT https://instantmessaging-pa.googleapis.com/google.internal.communications.instantmessaging.v1.IM/GetBotList HTTP/2.0
+
 RequestHeaders:
 ```
 :authority:            instantmessaging-pa.googleapis.com
@@ -46,6 +50,7 @@ grpc-accept-encoding:  gzip
 grpc-census-bin:
 grpc-timeout:          599999m
 ```
+
 RequestBody:
 ```
 \x00\x00\x00\x00\xe6
@@ -57,7 +62,9 @@ M2.\x00V\xaa\xdbVz#\xa5}Q\xc9\xa4\xd9'.%\xd6.UI\xfcJ\xa9(\xfd\xe5\xe8-?\xfb=\xd6
 ### Remove Text
 
 Usage: Removing Text Messages
+
 URL: PUT https://instantmessaging-pa.googleapis.com/google.internal.communications.instantmessaging.v1.IM/DeleteUserMessages HTTP/2.0
+
 RequestHeaders:
 ```
 :authority:            instantmessaging-pa.googleapis.com
@@ -70,6 +77,7 @@ grpc-accept-encoding:  gzip
 grpc-census-bin:
 grpc-timeout:          599999m
 ```
+
 RequestBody:
 ```
 \x00\x00\x00\x00w
@@ -78,7 +86,10 @@ $c4025afe-b725-48e3-a12a-70626e81abc6
 ```
 
 # Stickers
+Usage: Propably get Stickers
+
 URL: GET https://www.gstatic.com/allo/stickers/current_version HTTP/2.0
+
 RequestHeaders:
 ```
 :authority:         www.gstatic.com
